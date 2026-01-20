@@ -34,8 +34,8 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'glass-effect shadow-lg' : 'bg-white/70 backdrop-blur-xl'
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-slate-200 shadow-md ${
+        isScrolled ? 'glass-effect shadow-lg' : 'bg-slate-100/90 backdrop-blur-xl'
       }`}
       data-testid="navbar"
     >
@@ -97,7 +97,7 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <div
-          className="md:hidden bg-white border-t border-slate-200 shadow-xl"
+          className="md:hidden bg-slate-100/95 border-t border-slate-200 shadow-xl"
           data-testid="mobile-menu"
         >
           <div className="px-4 py-6 space-y-4">
