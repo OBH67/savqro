@@ -5,11 +5,11 @@ const About = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const heroImages = [
-    '/images/services/Hogar/puertas-corredisas-vidrio.avif',
-    '/images/services/Hogar/puertas-ventanas-vidrio.avif',
     '/images/services/Hogar/escaleras-con-vidrio.avif',
+    '/images/services/Hogar/escaleras-con-vidrio-2.avif',
     '/images/services/Empresa/puerta-de-vidrio-negocio.avif',
     '/images/services/Empresa/puerta-de-vidrio-negocio-2.avif',
+    '/images/services/Empresa/puerta-de-vidrio-negocio-3.avif',
   ];
 
   useEffect(() => {
